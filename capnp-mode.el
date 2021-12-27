@@ -27,7 +27,8 @@
 (setq capnp-font-lock-keywords
       (let* (
             ;; define several category of keywords
-            (x-keywords '("struct" "enum" "interface" "union" "for" "if" "return" "state" "while"))
+            (x-keywords '("using" "import" "const" "annotation" "extends" "struct" "enum" "interface"
+			  "union" "for" "if" "return" "state" "while" "in" "of"))
             (x-types '("group" "Void" "Bool" "Text" "Date" "List" "Int8" "Int16" "Int32" "Int64"
 		       "UInt8" "UInt16" "UInt32" "UInt64" "Text" "Data" "Float32" "Float64"))
             (x-constants '("ACTIVE" "AGENT" "ALL_SIDES" "ATTACH_BACK"))
