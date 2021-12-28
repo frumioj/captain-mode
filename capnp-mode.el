@@ -62,6 +62,8 @@
         synTable))
 
 ;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.capnp\\'" . capnp-mode))
+
 (define-derived-mode capnp-mode c-mode "capnproto mode"
   "Major mode for editing capnproto schemas"
 
